@@ -1,0 +1,96 @@
+/*mesmo com width em 100% o padding adicionava 20px no input
+por isso box-sizing foi necessário
+*/
+* {
+  margin: 0;
+  /*PARA RESOLVER AQUELE PROBLEMA DO INPUT*/
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+}
+img {
+  width: 150px;
+  height: 150px;
+}
+
+#container {
+  width: 80%;
+  margin-top: 50px;
+  max-width: 400px;
+  margin-inline: auto;
+  
+}
+
+h1 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+
+input, button {
+  display: block;
+  width: 100%;
+  
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+/*==========Button==========*/
+button {
+  border: none;
+  background-color: #1226d6;
+  color: white;
+  transition: filter 0.5s;
+  
+}
+
+button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+#resposta {
+  margin-top: 25px;
+  transition: opacity 1s;
+}
+
+#resposta div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
+
+/*==========DYNAMIC BACKGROUND==========*/
+.gradient {
+  background: linear-gradient(45deg, #150a36, #0e0a1a,#0f0a20,#1a1030);
+  background-size: 300% 300%;
+  animation: colors 5s ease infinite;
+}
+
+@keyframes colors {
+
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
