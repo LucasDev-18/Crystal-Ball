@@ -1,9 +1,6 @@
-/*mesmo com width em 100% o padding adicionava 20px no input
-por isso box-sizing foi necessário
-*/
+
 * {
   margin: 0;
-  /*PARA RESOLVER AQUELE PROBLEMA DO INPUT*/
   box-sizing: border-box;
 }
 
