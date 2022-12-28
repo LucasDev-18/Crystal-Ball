@@ -1,7 +1,7 @@
 # Crystal-Ball
 
 ## Sobre o projeto
-Projeto criado durante a explorer do canal Rocketseat (https://www.youtube.com/@rocketseat)
+Projeto criado durante a semana Explorer do canal Rocketseat (https://www.youtube.com/@rocketseat).
 
 Uma aplicação simples que consiste em responder perguntas com palavras/frases pré-determinadas que são escolhidas aleatoriamente pelo JavaScript.
 
